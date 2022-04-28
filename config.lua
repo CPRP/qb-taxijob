@@ -8,13 +8,14 @@ Config.DefaultTextLocation = "left" -- left, right, top
 
 Config.AllowedVehicles = {
    [1] = {model = "taxi", label = Lang:t("info.taxi_label_1")},
+   [2] = {model = "crownvic", label = Lang:t("info.taxi_label_1")},
 }
 
 Config.Meter = {
-    ["defaultPrice"] = 1.60
+    ["defaultPrice"] = 4.00
 }
 
-Config.BossMenu = vector3(903.32, -170.55, 74.0)
+Config.BossMenu = vector3(0, 0, 0)
 
 Config.Location = vector4(909.5, -177.35, 74.22, 238.5)
 
