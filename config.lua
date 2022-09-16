@@ -12,7 +12,8 @@ Config.AllowedVehicles = {
 }
 
 Config.Meter = {
-    ["defaultPrice"] = 4.00
+    ["defaultPrice"] = 125.0, -- price per mile
+    ["startingPrice"] = 0  -- static starting price
 }
 
 Config.BossMenu = vector3(0, 0, 0)
